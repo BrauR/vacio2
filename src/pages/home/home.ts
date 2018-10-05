@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { CienciasPage } from '../ciencias/ciencias';
 import { DibujoPage } from '../dibujo/dibujo';
 import { RoboticaPage } from '../robotica/robotica';
+import { PyEPage } from '../py-e/py-e';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ export class HomePage {
   ciencias = CienciasPage;
   dibujo = DibujoPage;
   robotica = RoboticaPage;
+  pye = PyEPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -28,5 +30,8 @@ clickDibujo(){
 }
 clickRobotica(){
   this.navCtrl.push(this.robotica);
+}
+clickPyE(){
+  this.navCtrl.push(this.pye);
 }
 }

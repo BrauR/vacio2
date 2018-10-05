@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { PyEPage } from '../pages/py-e/py-e';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     HistoriaPage,
     CienciasPage,
     DibujoPage,
-    RoboticaPage
+    RoboticaPage,
+    PyEPage
 
   ],
   imports: [
@@ -33,7 +35,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     HistoriaPage,
     CienciasPage,
     DibujoPage,
-    RoboticaPage
+    RoboticaPage,
+    PyEPage
 
   ],
   providers: [
