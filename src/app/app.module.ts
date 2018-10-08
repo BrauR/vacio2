@@ -11,6 +11,7 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PyEPage } from '../pages/py-e/py-e';
+import { MiPage } from '../pages/mi/mi';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     CienciasPage,
     DibujoPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
 
   ],
   imports: [
@@ -36,7 +38,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     CienciasPage,
     DibujoPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
 
   ],
   providers: [
